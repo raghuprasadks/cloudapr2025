@@ -1,0 +1,10 @@
+https://nginx.org/en/docs/windows.html
+
+https://dev.to/yosi/building-a-python-web-app-with-flask-and-nginx-5ah3
+
+https://medium.com/@elaurichetoho/how-to-use-nginx-as-a-load-balancer-for-your-application-d80ca40f28d8
+
+
+https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html

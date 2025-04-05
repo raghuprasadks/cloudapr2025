@@ -1,0 +1,51 @@
+Agenda:
+1. Introduction to Cloud Computing
+
+Use case - develop a website for your
+department
+1. Design and develop website
+using html,css,js
+
+visual studio code
+https://code.visualstudio.com/download
+a. Develop a simple website
+having following pages
+
+create folder with your name
+create a folder website inside above folder
+
+index.html
+signup.html
+Name : <text box>
+Email : <text box>
+Mobile : <text box>
+Password : <text box>
+<button>Sign Up</button>
+login.html
+Email : <text box>
+Password : <text box>
+<button>Login<button/>
+
+contact.html
+google map of your college
+Introductory video 
+host it on liveserer
+GitHub respository
+push the code
+2. deploy on webserver
+githubactions
+3. test locally
+4. keep code in source code control system
+GitHub
+5. Deploy it on cloud server
+
+6. create a new repository in GitHub.com
+7. upload static files into the repository
+8. Setting -pages
+branch - main - save
+9. https://aws.amazon.com/
+sign up - free tier account
+debit/credit/online
+
+
+

@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+Agenda:
+
+Recap:
+1. Introduction to Cloud Computing
+Cloud Computing models
+a. Deployment - public,private,hybrid
+b. Service - IAAS,PAAS,SAAS
+c. Visual Studio code
+created website 
+live server
+d. GitHub
+e. GitHub - pages
+2. Exploring on nginx
+http server,proxy server
+Steps:
+a. Download nginx for windows
+https://nginx.org/en/docs/windows.html
+https://nginx.org/en/download.html
+nginx/Windows-1.27.4
+b. extract and copy folder inside your name folder
+c. cd to nginx folder or cmd
+d. start nginx
+e. open browser
+type localhost in the address bar
+welcome to nginx
+
+
+3. Exploring on AWS features

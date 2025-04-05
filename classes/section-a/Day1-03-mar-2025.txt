@@ -1,0 +1,58 @@
+Agenda:
+1. Introduction to Cloud Computing
+Cloud Computing
+Computing over the cloud
+
+Use cases-1:
+Develop a website for your department
+and host it on a server
+Steps:
+1. Develop a website using html,css,java script
+following content
+index.html
+signup.html - 
+Name
+Email
+Mobile
+password
+submit
+login.html
+email
+password
+submit
+contactus.html
+google map of your college
+visual studio code
+steps:
+1. Download and install visual studio code
+https://code.visualstudio.com/download
+
+2. Develop website
+3. host it on live server
+4. Sign up with co-pilot
+
+
+2. Keep website content in a source control system
+git,github
+3. Deploy website on a server
+live server using visual studio code
+4. Deploy static website using GitHub
+
+create cloudapr2025 repository in the GitHub
+upload all the files into the GitHub repository
+settings
+pages
+https://github.com/raghuprasadks/cloudapr2025
+www.kaushalya.tech
+git
+github respositories
+
+aws.amazon.com
+sign up for free tier account
+
+
+
+
+
+
+

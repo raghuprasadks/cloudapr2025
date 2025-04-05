@@ -1,0 +1,55 @@
+Agenda:
+
+1. Explore on nginx
+nginx - web server
+reverse proxy server
+
+Step 1- download nginx for windows
+https://nginx.org/en/docs/windows.html
+download version 27
+Step 2- Unzip the file
+copy the unzipped folder to the c drive
+2. Explore few of the services of AWS
+
+
+Assignment
+
+1. Your department is planning
+to host a hackathon on cloud computing
+your hod has asked you to create
+a website and host it on nginx
+your website should provide following
+information
+Information about hackathon
+rules and regulations (including price amount)
+facility for participants to
+register and login
+image gallery
+video gallery
+contact 
+
+code into GitHub
+
+Step1 - download and install git
+https://git-scm.com/downloads
+Step2 -create repository cloudhackathon in GitHub.com
+Step 3 - execute git commands
+git init
+git add .
+git status
+git commit -m "my first files"
+git config --global user.name "Your Name"
+git config user.email "your.email@example.com" 
+git branch
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/cloudhackathon.git
+git push -u origin main
+
+
+
+
+
+
+
+
+

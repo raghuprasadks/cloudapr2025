@@ -1,0 +1,90 @@
+Agenda:
+1. Recap of git commands
+Version Control System
+GitHub - cloud 
+Repository
+git clone <repository name>
+git pull
+git init
+git add .
+git commit -m "initial draft"
+git branch
+git add origin <git  url>
+git push -u origin main
+
+2. AWS
+Amazon Web Service
+3. Hands on session
+Steps
+a. Sign up with AWS using free tier option
+b. Sign In - https://aws.amazon.com/
+c. Multi Factor Authentication
+d. Set up zone/data center - Asia Pacific (Mumbai)
+e. Explore various services
+f. Cloud Compute - EC2
+search for EC2
+g. Instances - Launch Instance
+Name : ec2demosurana
+Application and OS Images - ubuntu
+Free tier eligible
+key pair name
+create new key pair
+key pair name
+ec2demosurana-kp
+select default option
+Fire Wall
+Check the all three check boxes
+click launch instance
+click on the instance id
+check for public ip and private ip
+http://65.0.180.0/
+
+Connect
+EC2 Instance Connect
+Session Manager
+SSH client
+EC2 serial console
+username - ubuntu
+connect
+
+pwd
+/home/ubuntu
+ls
+vi demo.txt
+i for insert
+type any information
+esc :wq!
+cat demo.txt
+
+clear
+
+Installation of nginx on ubuntu
+
+1. sudo apt update
+2. sudo apt install nginx
+3. Open the browser with the public
+ip of the server
+http://65.0.180.0/
+
+connect using ssh client
+SSH Client
+
+go to the folder where you have kept the key pair
+
+right click 
+open git bash here
+chmod 400 "ec2demosurana-kp.pem"
+
+ssh -i "ec2demosurana-kp.pem" ubuntu@ec2-65-0-180-0.ap-south-1.compute.amazonaws.com
+
+install nginx on ec2 ubuntu
+
+
+virtual host
+
+cd /var/www/html/
+
+
+
+
+
