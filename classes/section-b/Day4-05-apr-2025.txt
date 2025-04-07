@@ -21,15 +21,8 @@ download git into your system
 a. create a simple website and 
 push the code to GitHub.com
 by creating suranademogit repository
-b. pull the code from suranademogit repository
-into some other folder
-c. modify index.html page of
-the website
-d. push the code into GitHub
-e. add new file and push the code
-f. pull the modified files
+first time commands
 
-echo "# suranademogit" >> README.md
 git init
 git add .
 git commit -m "first commit"
@@ -37,4 +30,17 @@ git branch -M main
 git remote add origin https://github.com/raghuprasadks/suranademogit.git
 git push -u origin main
 
+b. pull the code from suranademogit repository
+into some other folder
+git clone https://github.com/raghuprasadks/suranademogit.git
+c. modify index.html page of
+the website
+d. push the code into GitHub
+git status
+git add .
+git commit -m "modified index.html"
+git push
+e. add new file and push the code
+f. pull the modified files
+git pull
 
