@@ -17,6 +17,18 @@ any where ipv4
 Save rule
 
 
+git commands 
+for every modification of files
+or addition of new files
+
+git status
+git add .
+git commit -m "updated files"
+git push
+git clone https://github.com/raghuprasadks/cloudapr2025.git
+git pull
+
+
 
 
 
