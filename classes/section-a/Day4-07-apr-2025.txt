@@ -1,0 +1,28 @@
+Agenda:
+
+1. IAAS - Deployment on EC2 instance
+http://65.0.180.0/ - one website
+
+http://65.0.180.0:81/ - another website
+
+configuring in bound and out bound port
+click on the instance id
+click on security
+click on security groups
+edit inbound rules
+add rule
+custom tcp
+81
+any where ipv4
+Save rule
+
+
+
+
+
+2. Deploy static web site on S3
+Simple Storage Solution
+3. Deploy python api
+flask
+
+
