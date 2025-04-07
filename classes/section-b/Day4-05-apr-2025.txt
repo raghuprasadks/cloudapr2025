@@ -1,0 +1,40 @@
+Agenda:
+
+1. Creating EC2 instance and deploying website - suranavirtualhost
+Enabling different ports using security option
+IAAS
+SSH - 22
+HTTP - 80
+HTTPS - 443
+nginx
+http - 80
+virtual host - more than one application
+on the same server
+http - 81
+
+2. Deploying static website using s3 bucket
+Simple Storage Solution (S3)
+
+3. Recap of git commands
+GitHub.com
+download git into your system
+a. create a simple website and 
+push the code to GitHub.com
+by creating suranademogit repository
+b. pull the code from suranademogit repository
+into some other folder
+c. modify index.html page of
+the website
+d. push the code into GitHub
+e. add new file and push the code
+f. pull the modified files
+
+echo "# suranademogit" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/suranademogit.git
+git push -u origin main
+
+
