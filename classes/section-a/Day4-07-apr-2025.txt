@@ -29,11 +29,14 @@ git clone https://github.com/raghuprasadks/cloudapr2025.git
 git pull
 
 
-
-
-
 2. Deploy static web site on S3
 Simple Storage Solution
+
+steps
+a. create staticwebsites3 folder
+b. open in visual studio code
+c. create index.html
+
 3. Deploy python api
 flask
 
