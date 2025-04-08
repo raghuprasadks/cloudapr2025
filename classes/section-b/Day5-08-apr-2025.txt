@@ -1,0 +1,63 @@
+Agenda:
+1. Backend programming 
+using python web framework namely
+flask
+2. Deploying python flask application on aws ec2 instance
+3. Fullstack web application development using python flask
+with jinga templating engine
+4. Deploying full stack application
+on aws
+
+python 
+frameworks for web application development
+flask,Django,fastapi
+
+Steps
+1. create pythonflask folder
+2. open this folder in VS Code
+3. Python should be installed
+4. Path for python should be set
+verify using
+python --version
+where python
+5. open terminal in  vs
+pip install flask
+6. pypi.org
+7. create app.py file
+
+Deploy on EC2 instance.
+Steps
+1. Create flaskapp server
+2. Select Ubuntu
+3. Free tier server
+4. create new key value pair
+name it as flaskapp_kp
+5. Security
+check 3 check boxes
+6.Launch instance
+7. copy pem file to a folder
+8. open gitbash from this folder
+9. use ssh connect option
+10. connect to remote server
+11. Check version of python in ubuntu
+python3 --version
+
+python3 --version
+sudo apt install python3-pip
+sudo apt install python3-flask
+vi app.py
+copy paste the code
+from visual stdio code
+save
+esc :wq!
+python3 app.py
+http://3.108.252.200:5000
+
+
+
+
+
+
+
+
+

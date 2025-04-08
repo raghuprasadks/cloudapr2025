@@ -10,7 +10,13 @@ https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
 
 
-
+python3 --version
 sudo apt install python3-pip
 sudo apt install python3-flask
+vi app.py
+copy paste the code
+from visual stdio code
+save
+esc :wq!
 python3 app.py
+http://3.108.252.200:5000

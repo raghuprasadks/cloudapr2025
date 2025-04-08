@@ -59,3 +59,10 @@ to browse this application
 http://publicip:5000
 http://publicip:5000/welcome
 
+full stack
+
+jinga templating engine
+
+embed python code inside html
+
+
