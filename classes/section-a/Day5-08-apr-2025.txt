@@ -1,0 +1,61 @@
+Agenda:
+1. Backend programming using 
+python flask - frame work
+Flask is micro web server
+Django - framework
+fastapi - framework
+2. API development
+3. Deploying backend API on
+EC2 instance
+4. Deployment of full stack application
+
+Steps :
+1. create flaskapi folder
+2. open this folder using visual studio code
+3. Pre-requisites
+python should be installed on the system
+path to be set
+to check the python version
+python --version
+4. create HelloWorld.py
+execute in the  terminal
+5. in the terminal
+pip install flask 
+
+command to check location of python
+where python
+
+python libraries are available in
+https://pypi.org/
+
+setting path of python
+
+in windows search type edit
+select edit system environment variables
+
+python3
+
+Deploying flask application on Ubuntu EC2 instance
+
+
+Step 1 - Go the folder where you have copied
+private key
+Step 2 - Open Git bush from that folder
+Step 3 - Click on the connect option in EC2 instance
+select SSH option
+execute chmod and 
+ssh -i "suranavirtualhost-kp.pem" ubuntu@ec2-13-232-160-68.ap-south-1.compute.amazonaws.com
+python3 --version
+sudo mkdir flaskapi
+cd flaskapi
+sudo vi app.py
+paste the code from visual studio code
+press Esc key :wq!
+sudo apt install python3-pip
+sudo apt install python3-flask
+python3 app.py
+enable port 5000 using security-edit security-inbound
+to browse this application
+http://publicip:5000
+http://publicip:5000/welcome
+

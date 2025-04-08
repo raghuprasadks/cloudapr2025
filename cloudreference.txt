@@ -8,3 +8,9 @@ https://medium.com/@elaurichetoho/how-to-use-nginx-as-a-load-balancer-for-your-a
 https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+
+
+
+sudo apt install python3-pip
+sudo apt install python3-flask
+python3 app.py
