@@ -43,7 +43,9 @@ apply -finish
 with fields cutomerid,name,email,mobile,location
 14. Insert atleast 5 records into the customer table
 
+https://www.w3schools.com/MySQL/mysql_sql.asp
 
+create suppliers,categories table and insert 5 records
 
 5. Connecting to RDS using MySQL Workbench
 download My SQL Work bench Community Edition
