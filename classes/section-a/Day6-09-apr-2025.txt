@@ -1,9 +1,50 @@
 Agenda:
 1. Introduction to Database Management System
-2. SQL Vs No SQL
+2. SQL  (RDBMS) Vs No SQL
+ecommerce
+customer - customerid(pk),name,email,
+product - productid(pk),name,desc,price,supplierid (fk)
+supplier - supplierid(pk),name,address
+order - orderid (pk),orderdate,customerid,status
+orderdetails - orderdetailsid(pk),orderid(fk),productid(pk),qty,rate
+
 3. Relational Database Service (RDS) in AWS
 PAAS - Platform AS A Service
 4. Creating database instance using RDS
+Steps :
+1. Login to AWS
+2. Search for RDS
+Aurora and RDS
+3. Click DB Instance
+4. Create database
+5. Choose database creation method
+Select default i,e standard
+select MySQL
+Free tier
+6. User name - suranadbsectiona
+set the password
+public access - yes
+create database
+7. Wait till database status is available
+8. Open MySQL workbench
+9. click + button
+10. Give connection name as
+suranadbsectionaconnection
+host name (end point) - suranadbsectiona.cdtqd6jgia7i.ap-south-1.rds.amazonaws.com
+user - admin
+password - password you have set
+test connection
+click ok
+11. Click on the connection
+12. click on create new schema
+demodbsectiona
+apply -finish
+13. create new table cutomer
+with fields cutomerid,name,email,mobile,location
+14. Insert atleast 5 records into the customer table
+
+
+
 5. Connecting to RDS using MySQL Workbench
 download My SQL Work bench Community Edition
 https://dev.mysql.com/downloads/workbench/
