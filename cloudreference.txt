@@ -20,3 +20,7 @@ save
 esc :wq!
 python3 app.py
 http://3.108.252.200:5000
+
+configuration of RDS Server
+
+https://www.youtube.com/watch?v=by0EJ4qL8ek
