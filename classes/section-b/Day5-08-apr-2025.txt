@@ -53,6 +53,16 @@ esc :wq!
 python3 app.py
 http://3.108.252.200:5000
 
+full stack using python,flask,jinga templating
+engine
+Steps
+1. create templates folder inside pythonflask folder
+2. copy the signup.html from the git to the templates folder
+of sectiona
+3. copy appsignup.py directly into pythonflask folder
+4. stop previously running flask instances
+5. python appsignup.py
+6. http://127.0.0.1:5000/signup
 
 
 

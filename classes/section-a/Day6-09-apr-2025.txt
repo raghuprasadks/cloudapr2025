@@ -1,0 +1,12 @@
+Agenda:
+1. Introduction to Database Management System
+2. SQL Vs No SQL
+3. Relational Database Service (RDS) in AWS
+PAAS - Platform AS A Service
+4. Creating database instance using RDS
+5. Connecting to RDS using MySQL Workbench
+download My SQL Work bench Community Edition
+https://dev.mysql.com/downloads/workbench/
+
+6. Backend programming using python flask and sql
+MY SQL Work Bench
