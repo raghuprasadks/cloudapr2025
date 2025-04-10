@@ -13,6 +13,8 @@ https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.ht
 python3 --version
 sudo apt install python3-pip
 sudo apt install python3-flask
+sudo apt install python3-pymysql
+
 vi app.py
 copy paste the code
 from visual stdio code

@@ -32,6 +32,7 @@ Net Run Rate : <text box>
 saving data to ipl table
 
 
+Deploy application on ec2 instance..
 
 
 
