@@ -1,0 +1,37 @@
+Agenda:
+1. Development and deployment of
+full stack webapplication
+Tech stack - python,html,jinga,mysql,
+pymysql,aws rds,aws ec2
+2. Signup
+3. Practice session
+
+git clone https://github.com/raghuprasadks/cloudapr2025.git
+
+open flask-signup in visual studio code
+
+in terminal
+pip install flask pymysql
+
+python app.py
+
+Assignment
+1. Create ipl link next to signup
+2. Create ipl table to capture following data
+team : <text box>
+season : <text box>
+Matches : <text box>
+Won : <text box>
+Lost : <text box>
+Drawn : <text box>
+Points : <text box>
+Net Run Rate : <text box>
+
+3. Add ipl.html in templates folder
+4. Modify app.py to add functionality of 
+saving data to ipl table
+
+
+
+
+
