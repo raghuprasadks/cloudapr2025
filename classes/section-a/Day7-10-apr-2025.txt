@@ -33,3 +33,38 @@ Change database credential as per your cloud
 configuration
 create user table
 and again run app.py
+
+Create a IPL form having following fields and deploy on the
+aws
+
+Steps
+1. Give IPL link
+2. On click of IPL link open following form
+
+team : <text box>
+season : <text box>
+Matches : <text box>
+Won : <text box>
+Lost : <text box>
+Drawn : <text box>
+Points : <text box>
+Net Run Rate : <text box>
+<save>
+
+create ipl table having following fields
+id - int primary key auto_increment
+team - varchar(50)
+season,matches,won,drawn,lost,point - int
+netrunrate - float
+
+Deploy this along with sign up to ec2 instance
+
+
+
+
+
+
+
+
+
+
