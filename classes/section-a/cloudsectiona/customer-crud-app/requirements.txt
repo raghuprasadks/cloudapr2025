@@ -1,0 +1,4 @@
+Flask
+pymysql
+flask-wtf
+flask-bootstrap

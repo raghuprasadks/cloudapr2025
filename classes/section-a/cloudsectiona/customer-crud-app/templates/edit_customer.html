@@ -1,0 +1,14 @@
+<form action="{{ url_for('edit_customer',id=customer[0]) }}" method="POST">
+    <h2>Edit Customer</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" value="{{customer[1]}}" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="{{customer[2]}}" required>
+    
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" value="{{customer[3]}}" required>
+    
+    <input type="submit" value="Update Customer">
+</form>
+<a href="{{ url_for('view_customers') }}">Cancel</a>

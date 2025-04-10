@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Customer CRUD App</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Customer CRUD App</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('add_customer') }}">Add Customer</a></li>
+                <li><a href="{{ url_for('view_customers') }}">View Customers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home Page</h2>
+        <p>This application allows you to manage customers with ease.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Customer CRUD App</p>
+    </footer>
+</body>
+</html>
