@@ -1,0 +1,22 @@
+Agenda:
+1. Full stack programming and deployment
+python,flask,mysql,jinga
+2. Sign Up
+3. Customer Master
+CRUD - Create, Read, Update and
+Delete 
+
+Use Case 1 - Sign Up Form
+Steps 
+1. create flask-template folder
+2. create static and templates folder
+inside flask-signup folder
+3. create app.py directly inside flask-templates folder
+4. Inside templates folder
+create about.html,base.html,
+home.html,signup.html
+5. Inside static folder
+create site.css
+6. pip install flask pymysql
+7. create user table in the using rds 
+
