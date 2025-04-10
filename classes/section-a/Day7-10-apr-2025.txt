@@ -22,7 +22,7 @@ create site.css
 
 
 Code is available in flask-signup folder
-git clone <>
+git clone https://github.com/raghuprasadks/cloudapr2025.git
 git pull
 
 cd to flask-signup folder
