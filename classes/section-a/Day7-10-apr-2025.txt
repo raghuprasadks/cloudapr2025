@@ -20,3 +20,16 @@ create site.css
 6. pip install flask pymysql
 7. create user table in the using rds 
 
+
+Code is available in flask-signup folder
+git clone <>
+git pull
+
+cd to flask-signup folder
+pip install flask pymysql
+python app.py
+
+Change database credential as per your cloud
+configuration
+create user table
+and again run app.py
