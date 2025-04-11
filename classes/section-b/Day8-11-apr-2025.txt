@@ -29,3 +29,16 @@ in c or d drive
 5. Create customerapp git repository
 6. Check in the code
 7. Deploy customerapp into EC2 instance
+
+8. copy customer-crud-app
+into awsdeploy folder
+9. create customercrudapp repository
+in your GitHub
+10. cmd to customer-crud-app
+11. git init
+12. git add .
+13. git commit -m "initial commit"
+14. git branch -m main
+15.git remote add origin https://github.com/raghuprasadks/customercrudapp.git
+16. git push -u origin main
+
