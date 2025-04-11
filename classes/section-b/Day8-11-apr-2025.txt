@@ -1,0 +1,31 @@
+1. Development and deployment of 
+Student Master
+
+Add Student Master link below view customers 
+
+2. On click of Student Master link
+following form to be displayed
+
+Name <text>
+Email <text>
+Mobile <text>
+Course <text>
+Location <text>
+<Add Student>
+3. On click of Add Student data to be
+saved into following table
+student
+id - int pk auto_increment
+name - varchar(45)
+email - varchar
+mobile - bigint
+course - varchar
+location - varchar
+
+Test application
+
+4. Copy customer-crud-app into some other folder
+in c or d drive
+5. Create customerapp git repository
+6. Check in the code
+7. Deploy customerapp into EC2 instance
