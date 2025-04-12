@@ -141,5 +141,13 @@ Represenational State Transfer
 API - Lambda function
 
 
+Reference video
 
+Lambda
+https://www.youtube.com/watch?v=snDW-5n01ak
+
+https://github.com/slank/awsgi
+
+lambda layer
+https://www.youtube.com/watch?v=uxmF6WaYMzI
 
