@@ -1,0 +1,145 @@
+Agenda
+
+1. AWS Lambda - Server less deployment
+2. Transferring files to aws ec2 instance
+using FileZilla
+3. kaushalya.tech
+ekaushalya
+MERN
+Mongo Express React Node
+Generative AI
+platform 
+ekaushalya.kaushalya.tech
+
+4.aws lambda deployement
+
+Steps:
+1. create awslambda folder
+2. open this in visual studio code
+3. create app.py flask application
+4. Test locally
+app.py
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+@app.route('/welcome')
+def welcome():
+    return 'Welcome to the Flask app!'  
+if __name__ == '__main__':
+    app.run(debug=True)
+
+deploy flask application on EC2 instance
+
+1.Keep this in git and GitHub
+2. create EC2 instance
+3. git clone <repourl>
+3. commands
+
+python3 --version
+sudo apt install python3-pip
+sudo apt install python3-flask
+cd to the folder where app.py is present
+python3 app.py
+open 5000 port in securities and inbound
+
+deploy application using lambda
+
+Steps
+1. Search for lambda in aws
+2. create function
+3. Author from scratch
+4. function name - flask-app-new-function
+5. run time - python 3.11
+6. create function
+7. click on flask-app-new-function
+
+sample code
+import json
+
+def lambda_handler(event, context):
+    # TODO implement
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
+
+click on test
+create event - flask-app-new-function-event
+
+
+
+https://github.com/slank/awsgi
+
+copy sample program into the lambda function
+
+
+import awsgi
+from flask import (
+    Flask,
+    jsonify,
+)
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return jsonify(status=200, message='OK')
+
+
+def lambda_handler(event, context):
+    return awsgi.response(app, event, context, base64_content_types={"image/png"})
+
+
+
+
+Layers
+
+1. create a folder named python in your local system
+may be inside demolambda
+
+pip install flask -t .
+
+Add Layer - create layer
+upload zip file with the name python
+arn:aws:lambda:ap-south-1:809600782942:layer:flask-librarynew:1
+
+pip install awsgi -t .
+
+create compressed file of the
+python folder and upload into layer
+
+arn:aws:lambda:ap-south-1:809600782942:layer:wsgi-librarynew:1
+
+
+Api gateway
+
+search for api gateway
+create api
+rest api
+build
+api name : flaskwsginewapi
+
+create api
+add method
+method name - any
+lambda function - select the lambda function created earlier
+
+deploy api
+new stage
+development
+deploy
+
+copy the url
+https://yjwzqmkdek.execute-api.ap-south-1.amazonaws.com/development
+
+REST API
+Represenational State Transfer
+
+API - Lambda function
+
+
+
+

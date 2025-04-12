@@ -60,19 +60,36 @@ phone varchar(10))
 
 )
 
-                        <a href="{{ url_for('edit_customer', id=customer.id) }}">Edit</a>
-                        <a href="{{ url_for('delete_customer', id=customer.id) }}" onclick="return confirm('Are you sure you want to delete this customer?');">Delete</a>
 
-<a href="{{ url_for('delete_customer', id=customer[0])}}" onclick="return confirm('Are you sure you want to delete this customer?');">Delete</a>
+Lambda
+https://www.youtube.com/watch?v=snDW-5n01ak
 
-.table a {
-    color: #35424a;
-    text-decoration: none;
-}
+https://github.com/slank/awsgi
+
+pip install aws-wsgi
+
+lambda layer
+https://www.youtube.com/watch?v=uxmF6WaYMzI
+
+from flask import flask
+
+def lambda_handler(event,context):
+	print("hello")
+
+
+create python folder
+
+pip install Flask -t .
 
 
 
+api gateway
 
+create api
+rest api
 
+name - flask-app
+
+new method - any
 
 
