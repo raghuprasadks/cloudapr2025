@@ -1,0 +1,115 @@
+Agenda:
+
+1. Revision of topics covered so far
+Introduction to Cloud Computing
+Two models of cloud computing
+Deployment Model - Public,private,hybrid
+Service Model-
+IAAS -EC2-Elastic Cloud Compute
+Autoscaling
+PAAS- RDS - Relational Data Service 
+SAAS - gmail,ott,ecommerce
+
+git and GitHub - Version control
+1. Code is already available in the GitHub
+git clone <url>
+git pull
+2. You have been told to create a new project
+and keep the source code in GitHub
+demoproject
+https://www.w3schools.com/git/
+first time
+git init
+git add .
+git status
+git commit -m "initial commit"
+git branch -m main
+git add origin url
+git push -u origin main
+every change/addition:
+git status
+git add .
+git commit -m "login is modified"
+git push
+
+AWS
+EC2 instance
+ubuntu
+ssh 
+security - user role permission
+role - developer
+role - tester
+role - admin
+IAM - Identity Managment
+inbound/outbound
+ssh - 22
+http - 80
+https - 443
+nginx
+dynamic application - python,flask,jinga,mysql
+CRUD
+Monitoring - cloud watch
+RDS - connect using MySQL workbench
+command prompt
+
+Lambda
+SNS - Simple Notification Service
+SQS  - Simple Queue Service
+Billing and Cost management
+docker/Kubernetes
+https://www.w3schools.com/aws/
+
+2. IAM and SNS Service
+3. Feedback
+
+https://forms.gle/FhrrLnmRyAoocp3KA 
+4. MCQ Test
+https://forms.gle/uH9Cu5P5j1BMa4DV6
+5. Way forward
+
+Hands-on IAM and SNS
+IAM
+search iam
+ go to users
+	create users button
+		1. username
+		2.click on provide user access to aws
+		3. click on I want to create an IAM user
+		4. custom password
+		5. permission--> add user to grp
+                6. create user
+		7. copy the url or download the csv file which contains username
+                    , password, url 
+		8. signin and retype password
+create groups
+
+
+sns
+
+create topic
+type --> standard
+topic name
+displayname
+create topic
+
+using that topic
+create subscription
+protocol --> email
+
+Subscription filter policy
+select it by on button
+inside text box
+{ "anyMandatoryKey":["Confidentail"]}
+
+create subscription
+
+
+go to topic
+top right --> publish message
+subject name
+message
+type--> string 
+attribute--> anyMandatoryKey
+value--> Confidentail
+
+publish message
