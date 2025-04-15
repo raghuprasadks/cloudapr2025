@@ -60,12 +60,7 @@ docker/Kubernetes
 https://www.w3schools.com/aws/
 
 2. IAM and SNS Service
-3. Feedback
-
-https://forms.gle/FhrrLnmRyAoocp3KA 
-4. MCQ Test
-https://forms.gle/uH9Cu5P5j1BMa4DV6
-5. Way forward
+3. Way forward
 
 Hands-on IAM and SNS
 IAM
