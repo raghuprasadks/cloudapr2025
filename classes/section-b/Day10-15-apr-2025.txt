@@ -1,0 +1,79 @@
+Agenda:
+1. Recap from day 1
+Cloud Computing
+Models
+Deployment -public,private,hybrid
+Service - 
+
+IAAS - Infrastructure As A Service-EC2 in AWS
+PAAS-RDS 
+SAAS-gmail,googlemeet,google drive,
+ott platforms
+
+git and git hub
+version control
+
+1. github url - download code and analyze
+git commands
+git clone <url>
+git pull
+
+2. work on new project.. keep code in GitHub
+https://www.w3schools.com/git/
+create GitHub repository
+create project folder in your computer
+git init
+git add .
+git commit -m "message "
+git branch -m main
+git add remote origin <url>
+git push -u origin main
+
+after every change
+git status
+git add .
+git commit -m "message"
+git push
+
+deployed static website on GitHub pages
+
+AWS Account
+EC2  instance
+key
+enabled ports
+ssh - 22
+http - 80
+https - 443
+
+connect/ssh
+
+installed nginx
+hosted static website
+python flask application
+micro web server
+fullstack application
+python flask jinga MySQL
+
+S3  - Simple Storage Solution
+Deployed static website on S3
+
+2. IAM and SNS services
+User,Role,Access Rights - permission
+SNS - Simple Notification Service
+Lambda - event
+server less
+
+Auto Scaling
+clustering and load balancing
+
+EKS
+Container management
+Docker,kubernetes
+microservices
+
+3. Feedback and MCQ test
+Feedback
+https://forms.gle/xXJTmRPAQpqMuwRq7
+
+MCQ
+https://forms.gle/wegJ2bdY3Nt9FCEz8
